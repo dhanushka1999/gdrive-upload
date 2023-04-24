@@ -1,0 +1,29 @@
+name: "Google Drive Upload"
+description: "Upload file to google drive"
+
+inputs:
+  credentials:
+    description: "Google Service Account Base64 Key"
+    required: true
+  name:
+    description: "File Name"
+    required: true
+  file:
+    description: "File to upload"
+    required: true
+  mime-type:
+    description: "File mime type"
+    required: true
+  folder-id:
+    description: "Parent Folder"
+    required: true
+  
+outputs:
+  fileId:
+    description: "ID of uploaded file"
+  shareableLink:
+    description: "Link to view file"
+
+runs:
+  using: "node16"
+  main: "index.js"

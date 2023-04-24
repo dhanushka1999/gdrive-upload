@@ -1,0 +1,25 @@
+{
+    "name": "gdrive-upload",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://dhanushka1999@github.com/dhanushka1999/gdrive-upload.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dhanushka1999/gdrive-upload/issues"
+    },
+    "homepage": "https://github.com/dhanushka1999/gdrive-upload#readme",
+    "dependencies": {
+        "@actions/core": "^1.10.0",
+        "google-auth-library": "^8.7.0",
+        "googleapis": "^118.0.0"
+    }
+}
